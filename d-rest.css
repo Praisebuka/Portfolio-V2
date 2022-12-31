@@ -71,7 +71,7 @@
 
 .content-section .contents .button a:hover {
     color: #fff;
-    border: 7px solid rgb(124, 120, 115);
+    border: 7px solid orange;
     background-color: #ff6500;
     transition: 0.25s ease-in-out;
     border-radius: 5px;

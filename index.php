@@ -10,7 +10,7 @@ include 'includes/header.php';
             <h1>Hi, I'm A <br>Multi-Disciplinary <u class="line">Backend</u><br> <span class="orange-txt">Designer and </span>  <span class="orange-txt">Developer</span></h1>
 
             <div class="btn-wrapper">
-                <a href="contact.php">Let's connect</a><br><br>
+                <a href="contact.php">Let's connect</a>
                 <a href="https://docs.google.com/document/d/1VMK7d-RsLdNsHNgse-fOMTcvsVgkd_u4/edit?usp=sharing&ouid=107294567138336533708&rtpof=true&sd=true" target="_blank">Check Resume</a>
             </div> 
         </div> 
@@ -27,7 +27,7 @@ include 'includes/header.php';
             </h2>
             <p>
                 Operations that deals with the server and timly response between the client's interface, databases and others.
-            </p>
+            </p><br>
         </div>
 
         <div>
@@ -37,7 +37,8 @@ include 'includes/header.php';
             </h2>
             <p>
             I make this skill directly available to both public and business clients, 
-            The approach we take is to make the process of procurring web development as cheap & simple as possible.            </p>
+            The approach we take is to make the process of procurring web development as cheap & simple as possible.  </p><br>
+
         </div>
 
         <div>
@@ -48,7 +49,7 @@ include 'includes/header.php';
             <p>
                 As a backend devop. I can as well protect your website from the out-ragious 
                 numbers of hackers or penetration testers out there, and as well as keeping your websites updated.
-            </p>
+            </p><br>
         </div>
 
         <div>
