@@ -11,7 +11,7 @@ include 'includes/header.php';
 
             <div class="btn-wrapper">
                 <a href="contact.php">Let's connect</a>
-                <a href="index.php">View Portfolio</a>
+                <a href="https://docs.google.com/document/d/1VMK7d-RsLdNsHNgse-fOMTcvsVgkd_u4/edit?usp=sharing&ouid=107294567138336533708&rtpof=true&sd=true" target="_blank">View Resume</a>
             </div> 
         </div> 
     </div> 
@@ -57,7 +57,9 @@ include 'includes/header.php';
                 Creative Thinker
             </h2>
             <p>
-               &hearts; I am a solution inventor! &hearts;
+               &hearts; 
+               A vital part of me is to also nurture imaginations, think out of the box...... I'm also able to train my mind, think creatively, solve problems, create and communicate in fresh and new ways.
+               &hearts;
             </p>
         </div>
     </div>
@@ -82,7 +84,7 @@ include 'includes/header.php';
             <p>
                 Hi, You're welcome to my portfolio website, 
                 I'm very Creative I think and process my thoughts logically and quickly before the manifestations, 
-                I've been a Backend developer since 2020, It hasn't really been a smooth journey all through,
+                I've been a Backend developer since 2021, It hasn't really been a smooth journey all through,
                 but all thanks still to God almighty, I also think that It'll be of a great deal If I colaborate 
                 with you on that project of yours.           
                 <br>Whether you require distribution or fulfillment, 
@@ -111,8 +113,8 @@ include 'includes/header.php';
                 Quality Control
             </h2>
             <p>
-                Maintaining the quality of your apps and anything software is what I do, 
-                using tools such as Git-Bash...
+                Maintaining the quality of your applications or anything software is also part of me, 
+                It can be achieved successfully using tools such as Git-Bash and many others...
             </p>
         </div>
 
@@ -126,8 +128,8 @@ include 'includes/header.php';
                 Optional Maintenance
             </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
+            Optimal maintenance is the discipline within operations research concerned with maintaining a system in a manner that maximizes profit or minimizes cost.
+         </p>
         </div>
 
         <div>
@@ -136,8 +138,8 @@ include 'includes/header.php';
                 Search Engine Friendly
             </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
+                I also make sure that I provide the best quality information for my users and at the same time giving them the best user experience ever.
+         </p>
         </div>
 
         <div>
@@ -146,8 +148,8 @@ include 'includes/header.php';
                 Web Master Tools
             </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
+            I also make sure that Web-master tools such as that of Bing's, Google and many more, check's their indexing status, search queries, avoid crawling errors and optimize visibility of their websites.
+         </p>
         </div>
       
     </div>
