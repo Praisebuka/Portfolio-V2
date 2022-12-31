@@ -6,8 +6,6 @@ include 'includes/headerr.php';
 
 <section>
     <div class="container">
-        <h1>Connect With Us</h1>
-
         <div class="contactInfo">
             <div>
                 <h2>
@@ -29,10 +27,10 @@ include 'includes/headerr.php';
                 </ul>
             </div>
             <ul class="sci">
-                <li><a href="https://www.facebook.com/praise.diamond.7737"><img src="img/1.png" alt="https://www.facebook.com/praise.diamond.7737"></a></li>
-                <li><a href="https://www.instagram.com/praisebuka/"><img src="img/3.png" alt="https://www.instagram.com/praisebuka/"></a></li>
-                <li><a href="https://www.linkedi'n.com/in/praise-ebuka-3110a4246/"><img src="img/5.png" alt="https://www.linkedin.com/in/praise-ebuka-3110a4246/"></a></li>
-                <li><a href="https://twitter.com/PraiseEbuka1"><img src="img/2.png" alt="https://twitter.com/PraiseEbuka1"></a></li>
+                <li><a href="https://www.facebook.com/praise.diamond.7737" target="_blank"><img src="img/1.png" alt="https://www.facebook.com/praise.diamond.7737"></a></li>
+                <li><a href="https://www.instagram.com/praisebuka/" target="_blank"><img src="img/3.png" alt="https://www.instagram.com/praisebuka/"></a></li>
+                <li><a href="https://www.linkedi'n.com/in/praise-ebuka-3110a4246/" target="_blank"><img src="img/5.png" alt="https://www.linkedin.com/in/praise-ebuka-3110a4246/"></a></li>
+                <li><a href="https://twitter.com/PraiseEbuka1" target="_blank"><img src="img/2.png" alt="https://twitter.com/PraiseEbuka1"></a></li>
             </ul>
         </div>
 
@@ -60,7 +58,9 @@ include 'includes/headerr.php';
                     <span>Leave your messages here...</span>
                 </div>
                 <div class="inputBox w100">
-                    <input type="submit" value="Send">
+                    <button type="submit" value="Send">
+                        Send
+                    </button>
                 </div>
             </div>
         </div>

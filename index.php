@@ -7,11 +7,11 @@ include 'includes/header.php';
     <!-- Hero background & content on top of hero background -->
     <div id="hero-container">
         <div class="hero-wrapper">
-            <h1>Hi, Am A <br>Multi-Disciplinary Backend<br> <span class="line">Designer</span> <span class="orange-txt">Developer</span></h1>
+            <h1>Hi, I'm A <br>Multi-Disciplinary <u class="line">Backend</u><br> <span class="orange-txt">Designer and </span>  <span class="orange-txt">Developer</span></h1>
 
             <div class="btn-wrapper">
-                <a href="contact.php">Let's connect</a>
-                <a href="https://docs.google.com/document/d/1VMK7d-RsLdNsHNgse-fOMTcvsVgkd_u4/edit?usp=sharing&ouid=107294567138336533708&rtpof=true&sd=true" target="_blank">View Resume</a>
+                <a href="contact.php">Let's connect</a><br><br>
+                <a href="https://docs.google.com/document/d/1VMK7d-RsLdNsHNgse-fOMTcvsVgkd_u4/edit?usp=sharing&ouid=107294567138336533708&rtpof=true&sd=true" target="_blank">Check Resume</a>
             </div> 
         </div> 
     </div> 
@@ -26,7 +26,7 @@ include 'includes/header.php';
                 Backend-Website Development
             </h2>
             <p>
-                Operations that deals with the server and timly response between the client's interface, databses and others.
+                Operations that deals with the server and timly response between the client's interface, databases and others.
             </p>
         </div>
 
@@ -90,12 +90,12 @@ include 'includes/header.php';
                 <br>Whether you require distribution or fulfillment, 
                 defined freight forwarding, or a complete supply chain solution, I am here for you!.<br>
                 Thanks for spending couple of minutes of your time here, You can as-well get across to me on any or my
-                socials.....Do have a Great day AHEAD!!!.
+                socials which I off course made available here.....Do have a Great day AHEAD!!!.
             </p>
 
             <div class="btn-wrapper">
                 <a href="about.php">More About Me?</a>
-            </div>
+            </div><br>
         </div>
     </div>
 
@@ -108,7 +108,7 @@ include 'includes/header.php';
     <!-- Section of skills -->
     <div class="section-why-us">
         <div>
-            <i class="fas fa-code-branch icon-why-us"></i>
+            <i class="fas fa-code-branch icon-why-us"><br></i><br>
             <h2>
                 Quality Control
             </h2>
@@ -118,12 +118,8 @@ include 'includes/header.php';
             </p>
         </div>
 
-        <div class="middle">
-            <img src="img/Head2.jpg" alt="my-photo2">
-        </div>
-
         <div>
-            <i class="far fa-keyboard icon-why-us"></i>
+           <br><br><i class="far fa-keyboard icon-why-us"><br></i><br>
             <h2>
                 Optional Maintenance
             </h2>
@@ -132,8 +128,12 @@ include 'includes/header.php';
          </p>
         </div>
 
+        <div class="middle"><br>
+            <img src="img/Head2.jpg" alt="my-photo2">
+        </div> 
+
         <div>
-            <i class="fab fa-google icon-why-us"></i>
+           <br><br> <i class="fab fa-google icon-why-us"><br></i><br>
             <h2>
                 Search Engine Friendly
             </h2>
@@ -143,7 +143,7 @@ include 'includes/header.php';
         </div>
 
         <div>
-            <i class="fas fa-globe icon-why-us"></i>
+            <br><br><i class="fas fa-globe icon-why-us"><br></i><br>
             <h2>
                 Web Master Tools
             </h2>

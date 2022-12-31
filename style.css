@@ -64,8 +64,8 @@ p {
     margin: 0;
     float: right;
     position: relative;
-    top: 34px;
-    right: 60px;
+    top: 30px;
+    right: 30px;
 }
 
 .top-menu-container ul li{
@@ -76,7 +76,7 @@ p {
     text-decoration: none;
     margin: 20px;
     font-size: 14px;
-    padding: 0px 4px 6px 4px;
+    padding: 0px 0px 0px 0px;
     text-transform: uppercase;
     color: #303030;
 }
@@ -87,7 +87,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;  
     height: 100%;
     width: 100%;
 }
@@ -95,14 +95,15 @@ p {
 .hero-wrapper {
     width: 80%;
     position: relative;
-    top: 30%;
+    top: 20%;
     margin: 0 auto;
+    font-size: 50px;
 }
 
 .line {
-    text-decoration: line-through;
+    text-decoration: underline;
     text-decoration-color: #ff6500;
-    font-style: italic;
+/*    font-style: italic;  */
 }
 
 .orange-txt {
@@ -114,14 +115,14 @@ p {
     color: #ffffff;
     border: 2px solid #ffffff;
     font-weight: bold;
-    padding: 12px 20px;
+    padding: 14px 20px;
     text-transform: uppercase;
     font-size: 20px;
     margin: 0px 30px 0px 0px;
 }
 
 .btn-wrapper {
-    padding: 60px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 .hero-wrapper a:hover {
@@ -130,10 +131,18 @@ p {
     transition: 0.20s ease-in-out;
 }
 
+/* Making the Hero part to be responsive */
+
+@media (max-width: 500px) {
+    .hero-container {
+        font-size: 1px;
+    }
+}
+
 /* HOME - SECTION SKILLS */
 .container-grid-4 {
     padding: 100px 0px;
-    display: grid;
+    display: flex;
     margin: 0 auto;
     width: 80%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -161,7 +170,7 @@ p {
 
 hr {
     margin: 0 auto;
-    width: 30px;
+    width: 100px;
 }
 
 .header-section {
@@ -171,7 +180,16 @@ hr {
     padding: 0px 0px 100px 0px;
 }
 
-/* ABOUT US HOME PAGE */
+
+/* Making the container-grid-4 to be responsive  */
+
+@media (max-width : 700px) {
+    .container-grid-4 {
+        display: inline-block;
+    }
+}
+
+/* Meet the Team PAGE */
 .container-grid-2 {
     grid-template-columns: 1fr 1fr;
     display: grid;
@@ -181,7 +199,8 @@ hr {
 }
 
 .img-team {
-    width: 700px;
+    max-width: 500px;
+    padding-left: 15px;
 }
 
 .container-grid-2 h2 {
@@ -205,6 +224,7 @@ hr {
     padding: 12px 30px;
     text-transform: uppercase;
     font-size: 20px;
+    border-radius: 5px;
 }
 
 .container-grid-2 a:hover {
@@ -212,6 +232,21 @@ hr {
     border: 7px solid darkorange;
     background-color: #ff6500;
     transition: 0.25s ease-in-out;
+    border-radius: 5px;
+}
+
+
+/* Making the Meet the Team section to be responsive */
+
+@media (max-width : 960px) {
+    .container-grid-2 {
+        display: inline;
+    }
+
+    .img-team {
+        max-width: 450px;
+        align-items: center;
+    }
 }
 
 /* WHY US */
@@ -232,7 +267,7 @@ hr {
 }
 
 .section-why-us .icon-why-us {
-    padding: 30px;
+    padding: 35px;
     font-size: 30px;
     border-radius: 5px 20px 5px;
     color: #ff6500;
@@ -240,7 +275,15 @@ hr {
 }
 
 .section-why-us p {
-    font-size: 14px;
+    font-size: 15px;
+}
+
+/* Making the Add Skills section to be a little responsive */
+
+@media (max-width : 600px) {
+    .section-why-us {
+        display: inline;
+    }
 }
 
 /* Styling footer */

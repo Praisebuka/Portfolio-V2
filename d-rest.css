@@ -11,30 +11,31 @@
   /*     Styling the about us start's here    */
   .sectiors {
     width: 100%;
-    min-height: 100vh;
-    background: #ddd;
-}
+    min-height: 100vh; 
+    background-color: #ddd;
+} 
 
 .contannan {
     width: 80%;
-    display: block;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .content-section {
-    float: left;
-    width: 55%;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0px 0px 100px 0px;
+    display: grid;
 }
 
 .image-section {
-    float: right;
-    width: 40%;
+    width: 90%;
 }
 
 .image-section img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .content-section .title {
@@ -65,11 +66,15 @@
     color: #fff;
     font-size: 23px;
     letter-spacing: 1.3px;
+    border-radius: 5px;
 }
 
 .content-section .contents .button a:hover {
-    background-color: darkorange;
     color: #fff;
+    border: 7px solid rgb(124, 120, 115);
+    background-color: #ff6500;
+    transition: 0.25s ease-in-out;
+    border-radius: 5px;
 }
 
 .content-section .socials {
@@ -86,39 +91,57 @@
     color: orangered;
 }
 
+.dark {
+    color: #666;
+}
+
+.big {
+    font-size: 45px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 90px;
+    color: orange;
+}
+
+.header-section {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    background: #ddd;
+}
+
 /*     Making the about us to be Responsive starts here    */
 
-@media screen and (max-width: 768) {
+@media (max-width: 770px) {
+    .sectiors {
+        background: #ddd;
+    }
+
     .contannan {
-        width: 80%;
-        display: block;
+        width: 100%;
         margin: auto;
-        padding-top: 50px;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: #ddd;
     }
 
     .content-section {
-        float: none;
-        width: 100%;
-        display: block;
-        margin: auto;
+        display: inline;
+        background-color: #ddd;
     }
 
     .image-section {
-        float: none;
-        width: 100%;
-    }
+        width: 90%;
+        padding-left: 35px;
+    } 
 
     .image-section img {
         width: 100%;
-        height: auto;
-        display: block;
-        margin: auto;
-    }
-
-    .content-section .title {
-        text-align: center;
-        font-size: 19px;
-    }
+        height: 100%;
+    } 
 
     .content-section .contents .button {
         text-align: center;
@@ -311,18 +334,24 @@ section::before {
     font-weight: 500;
 }
 
-.container .contactForm .formBox .inputBox input[type="submit"] {
+.container .contactForm .formBox .inputBox button[type="submit"] {
     position: relative;
     cursor: pointer;
     background: #095a55;
     color: #fff;
     border: none;
     max-width: 150px;
-    padding: 12px;
+    padding: 17px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
 }
 
-.container .contactForm .formBox .inputBox input[type="submit"]:hover {
-    background: orange;
+.container .contactForm .formBox .inputBox button[type="submit"]:hover {
+    color: #f1f1f1;
+    border: 5px solid darkorange;
+    background-color: #ff6500;
+    transition: 0.25s ease-in-out;
 }
 
 
@@ -458,8 +487,8 @@ section::before {
     margin: 0;
     float: right;
     position: relative;
-    top: 34px;
-    right: 80px;
+    top: 30px;
+    right: 30px;
 }
 
 .top-menu-container ul li{
@@ -470,7 +499,7 @@ section::before {
     text-decoration: none;
     margin: 20px;
     font-size: 14px;
-    padding: 0px 4px 6px 4px;
+    padding: 0px 0px 0px 0px;
     text-transform: uppercase;
     color: #303030;
 }
