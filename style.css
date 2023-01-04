@@ -81,6 +81,14 @@ p {
     color: #303030;
 }
 
+/* Making the menu part to be responsive */
+
+@media (max-width : 700px) {
+    .top-menu-container ul li a {
+        margin: 10px;
+    }
+}
+
 /* Landing section */
 #hero-container {
     background: url('img/Head.jpg') no-repeat center center fixed;
@@ -123,7 +131,7 @@ p {
 }
 
 .btn-wrapper {
-    padding: 40px 0px 0px 0px;
+    padding: 90px 0px 0px 0px;
 }
 
 .hero-wrapper a:hover {
@@ -154,16 +162,27 @@ p {
         font-weight: bold;
         padding: 9px 10px;
         font-size: 20px;
-        margin: 0px 15px 0px 0px;
+        margin: 0px 5px 0px 0px;
         display: grid;
         position: relative;
+    }
+}
+
+@media (max-width : 450px) {
+    .btn-wrapper a {
+        font-size: 13px;
+    }
+}
+@media (max-width : 360px) {
+    .btn-wrapper a {
+        font-size: 11px;
     }
 }
 
 
 /* HOME - SECTION SKILLS */
 .container-grid-4 {
-    padding: 100px 0px;
+    padding: 60px 0px;
     display: flex;
     margin: 0 auto;
     width: 90%;
@@ -189,6 +208,9 @@ p {
 .big {
     font-size: 38px;
 }
+.bigg {
+    font-size: 30px;
+}
 
 hr {
     margin: 0 auto;
@@ -202,12 +224,19 @@ hr {
     padding: 0px 0px 100px 0px;
 }
 
+.headerr-section {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px 0px 8px 0px;
+}
+
 
 /* Making the container-grid-4 to be responsive  */
 
 @media (max-width : 700px) {
     .container-grid-4 {
-        padding: 100px 15px;
+        padding: 20px 15px;
         display: inline-block;
         width: 90%;
         text-align: center;
@@ -269,8 +298,19 @@ hr {
     }
 
     .img-team {
-        max-width: 450px;
-        align-items: center;
+        max-width: 400px;
+        align-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .img-team {
+        max-width: 300px;
+    }
+}
+@media (max-width: 333px) {
+    .img-team {
+        max-width: 280px;
     }
 }
 

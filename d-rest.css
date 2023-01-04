@@ -188,21 +188,6 @@ section::before {
     z-index: 1000;
 }
 
-.container .contactInfo {
-    position: absolute;
-    top: 40px;
-    width: 350px;
-    height: calc(100% - 80px);
-    background: #095a55;
-    z-index: 1;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 20px 25px rgba(0,0,0,0.15);
-}
-
 .container .contactInfo h2 {
     color: #f2f2f2;
     font-size: 24px;
@@ -212,6 +197,7 @@ section::before {
 .container .contactInfo ul.info {
     position: relative;
     margin: 20px 0;
+    display: inline-block;
 }
 
 .container .contactInfo ul.info li {
@@ -334,7 +320,7 @@ section::before {
     font-weight: 500;
 }
 
-.container .contactForm .formBox .inputBox button[type="submit"] {
+.container .contactForm .formBox .inputBox button {
     position: relative;
     cursor: pointer;
     background: #095a55;
@@ -343,11 +329,14 @@ section::before {
     max-width: 150px;
     padding: 17px;
     text-align: center;
+    margin: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 17px;
     border-radius: 20px;
 }
 
-.container .contactForm .formBox .inputBox button[type="submit"]:hover {
+.container .contactForm .formBox .inputBox button:hover {
     color: #f1f1f1;
     border: 5px solid darkorange;
     background-color: #ff6500;
@@ -361,6 +350,24 @@ section::before {
 
 /*   Moving on to making it responsive    */
 
+@media screen and (min-width : 1000px) {
+    
+.container .contactInfo {
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background: #095a55;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+}
+}
+
 @media (max-width : 1200px) 
 {
  .container {
@@ -369,6 +376,15 @@ section::before {
     margin: 20px;
     box-shadow: 0 20px 50px rgba(0,0,0,0.2);
     }
+
+    
+.container .contactInfo {
+    background: #095a55;
+    display: block;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
 
   .contact .contactInfo {
     top: 0;
@@ -412,6 +428,7 @@ section::before {
         width: 100%;
         height: auto;
         flex-direction: row;
+        display: inline;
     }
 
     .container .contactInfo ul.sci {
@@ -427,9 +444,11 @@ section::before {
         padding: 25px;
     }
     .container .contactInfo {
-        padding: 25px;
-        flex-direction: column-reverse;
+        padding: 40px;
+        flex-direction: column;
         align-items: flex-start;
+        display: inline;
+        background-color: #095a55;
     }
 
     .container .contactInfo ul.sci {
@@ -504,6 +523,14 @@ section::before {
     color: #303030;
 }
 
+/* Making the menu part to be responsive */
+
+@media (max-width : 700px) {
+    .top-menu-container ul li a {
+        margin: 10px;
+    }
+
+}
 
 /* Styling footer */
 footer {

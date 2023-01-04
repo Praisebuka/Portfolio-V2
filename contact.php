@@ -14,11 +14,11 @@ include 'includes/headerr.php';
                 <ul class="info">
                     <li>
                         <span><img src="img/mail.png"></span>
-                        <span>Praisep359@gmail.com<br> or praise.njoga@gmail.com</span>
+                        <span>praise.njoga@gmail.com<br></span>
                     </li>
                     <li>
                         <span><img src="img/Whatsapp.png"></span>
-                        <span>+234-909-499-1732 or +234-808-659-8945</span>
+                        <span>+234-909-499-1732</span>
                     </li>
                     <li>
                         <span><img src="img/Github.png"></span>
@@ -34,36 +34,38 @@ include 'includes/headerr.php';
             </ul>
         </div>
 
+        <form action="includes/contact-inc.php" method="post">
         <div class="contactForm">
             <h2>Send your request to Praisebuka</h2>
             <div class="formBox">
                 <div class="inputBox w50">
-                    <input type="text" required>
+                    <input type="text" name="name"required>
                     <span>First Name</span>
                 </div>
                 <div class="inputBox w50">
-                    <input type="text" required>
+                    <input type="text" name="second" required>
                     <span>Last Name</span>
                 </div>
                 <div class="inputBox w50">
-                    <input type="email" required>
+                    <input type="email" name="email" required>
                     <span>Email Address</span>
                 </div>
                 <div class="inputBox w50">
-                    <input type="text" required>
+                    <input type="text" name="phone" required>
                     <span>Mobile Phone-Number</span>
                 </div>
                 <div class="inputBox w100">
-                    <textarea required></textarea>
+                    <textarea name="message" required></textarea>
                     <span>Leave your messages here...</span>
                 </div>
                 <div class="inputBox w100">
-                    <button type="submit" value="Send">
+                    <button type="submit" name="submit">
                         Send
                     </button>
                 </div>
             </div>
         </div>
+        </form>
     </div>
 </section>
 

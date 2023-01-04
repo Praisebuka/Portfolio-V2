@@ -18,7 +18,13 @@ include 'includes/header.php';
     
     <!-- 4 grid layout skills on homepage -->
     <!-- Every div is a grid item -->
+    <div class="headerr-section">
+           <h2 class="dark bigg"> What does Backend programming entails??...</h2>
+
+           <hr>
+        </div>
     <div class="container-grid-4">
+
         <div>
             
             <img src="img/product.png" alt="Web-dev">
